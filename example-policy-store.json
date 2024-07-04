@@ -1,0 +1,27 @@
+{
+  "policy_store_dict": {
+    "gluu_store": {
+      "description": "Gluu example policy store",
+      "identity_source": {
+        "jans_ui": {
+          "name": "jans_ui",
+          "description": "jans ui",
+          "openid_configuration_endpoint": "https://jans-ui.jans.io/.well-known/openid-configuration",
+          "access_token": {},
+          "id_token": {},
+          "userinfo_token": {},
+          "tx_token": {}
+        }
+      },
+      "name": "gluu_store",
+      "policies": {
+        "additionalProp3": {
+          "creation_date": "2024-07-04",
+          "description": "permit admin write access when scope has write",
+          "policy_content": "QGlkKCJwZXJtaXQgYWRtaW4gd3JpdGUgYWNjZXNzIHdoZW4gc2NvcGUgaGFzIHdyaXRlIikKcGVybWl0ICgKICBwcmluY2lwYWwgaW4gSmFuczo6Um9sZTo6ImFkbWluIiwKICBhY3Rpb24gPT0gSmFuczo6QWN0aW9uOjoiV3JpdGUiLAogIHJlc291cmNlID09IEphbnM6OkFwcGxpY2F0aW9uOjoiT25saW5lU2hvcDIwMCIKKQp3aGVuIHsKICAgIEphbnM6OkFjY2Vzc1Rva2VuOjoiYWNjZXNzdG9rZW4wMDAwMSIuc2NvcGUgPT0gWyJXcml0ZSJdCn07Cg=="
+        }
+      },
+      "schema": {}
+    }
+  }
+}
